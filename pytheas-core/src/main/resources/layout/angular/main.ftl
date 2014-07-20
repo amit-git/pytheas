@@ -10,6 +10,12 @@ Missing body macro for ${nestedpage}
     <link rel="shortcut icon" href="${RequestContext.pathToRoot}res/css/images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="${RequestContext.pathToRoot}res/css/images/favicon.ico" type="image/x-icon">
     <#include "js_css_include.ftl"/>
+
+    <style type="text/css">
+      body {
+        margin:0 20px;
+      }
+    </style>
   </head>
 
   <body>

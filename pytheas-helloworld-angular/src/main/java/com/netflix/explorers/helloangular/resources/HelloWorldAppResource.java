@@ -59,6 +59,10 @@ public class HelloWorldAppResource {
                 "    \"firstName\": \"Foo\"," +
                 "    \"lastName\": \"BAR\"" +
                 "}, {" +
+                "    \"id\": 500," +
+                "    \"firstName\": \"Goodname\"," +
+                "    \"lastName\": \"Badname\"" +
+                "}, {" +
                 "    \"id\": 200," +
                 "    \"firstName\": \"Double Foo\"," +
                 "    \"lastName\": \"Double bar\"" +
