@@ -46,9 +46,7 @@ public class ExplorerAppTest {
 
 
     private static final Map<String, String> REST_END_POINTS = new ImmutableMap.Builder<String, String>()
-        .put("/", MediaType.TEXT_HTML)
-        //.put("/helloangular", MediaType.TEXT_HTML)
-        //.put("/helloangular/list", MediaType.APPLICATION_JSON)
+        .put("/helloangular", MediaType.TEXT_HTML)
         .build();
 
 
